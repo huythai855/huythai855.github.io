@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02e726cc-cf2a-4f26-9596-34aed156d369" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,11 +98,19 @@
       <option name="project" value="LOCAL" />
       <updated>1661289874000</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Aug 24th 2022: Update href links in homepage footer">
+      <created>1661291376184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661291376184</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aug 24th 2022: Update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aug 24th 2022: Update index.html" />
+    <MESSAGE value="Aug 24th 2022: Update href links in homepage footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aug 24th 2022: Update href links in homepage footer" />
   </component>
 </project>
