@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <h1>Hi, I'm Charlie 🙋</h1>
+        <q><i>The difference between ordinary and extraordinary is that little extra.</i></q> <i>- JS</i>
+      
+        <p>__</p>
+        <p class="mb-5">Xin chào, mình là Thái, sinh viên năm 3 ngành Công nghệ thông tin, trường Đại học Công nghệ (ĐHQGHN). Hiện tại, mình đang nghiên cứu lĩnh vực Tin Sinh Học tại một lab trong trường và đang học thêm về DS & ML.</p>
+      
+        <p class="mb-5">Ngoài ra, những lúc rảnh mình cũng hay tập tành viết viết các thứ, tìm hiểu những công nghệ, nền tảng mới. Mình là một người rất yêu công nghệ và luôn mong muốn đem công nghệ gần hơn với cuộc sống hàng ngày của chúng ta như sắp sếp thời khóa biểu, kiểm tra sức khỏe, trợ lý ảo cá nhân,... và mình đang cố gắng hàng ngày để mang ước mơ này đến gần hơn với hiện thực.</p>
+      
+        <p class="mb-5">Mặc dù là một người khá hướng nội, nhưng thi thoảng mình cũng thích tham gia các hoạt động xã hội, câu lạc bộ ở đại học & tham gia các dự án mã nguồn mở. Nơi mình nghĩ là mình có thể tạo ra & lan tỏa các giá trị cho những người xung quanh và phục vụ cộng đồng.</p>
+      
+        <p class="mb-5">Blog này cũng là một dự án mình ấp ủ từ khá lâu, nơi mình có thể chia sẻ sương sương một số thứ về cuộc sống, công nghệ, trải nghiệm, tình cảm,... những thứ mà mình thấy khá tâm đắc. Nếu mọi người thấy các chủ đề trong blog hay hoặc muốn chia sẻ thêm thì đừng ngại liên lạc với mình thông qua các đường link bên dưới nhé.</p>
+
+ 
+
+
+        <!-- {% for post in site.posts limit : 5 %}
+
+        <article class="post-preview">
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">Posted by
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+
+        
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+        </div> -->
+
+      </div>
+    </div>
+  </div>

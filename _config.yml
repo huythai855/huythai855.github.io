@@ -1,0 +1,31 @@
+title:              855's blog
+email:              nguyenhuythai15@gmail.com
+description:        Góc cá nhân của @nguyenhuythai
+author:             huythai855
+baseurl:            ""
+url:                "https://github.com/huythai855"
+
+# Social Profiles
+twitter_username:   
+github_username:    huythai855
+facebook_username:  huythai855
+instagram_username: 
+linkedin_username:  huythai855
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Collections
+collections:
+  tech:
+    output: true
+    permalink: /tech/:title/
