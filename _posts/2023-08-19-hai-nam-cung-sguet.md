@@ -26,7 +26,10 @@ Nhưng mà kệ thôi, với cái sự tự tin có lẽ sẽ hơn khá nhiều 
 
 ## Thời gian làm newbie
 
-![Thời gian làm newbie](https://raw.githubusercontent.com/nyvietnam/mjml/main/newbie.JPG)
+<div style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/newbie.JPG" alt="Gặp gỡ" style="width: 100%;">
+</div>
+
 
 Rồi, pass rồi thì vào sinh hoạt thôi, tôi khá choáng ngợp với câu lạc bộ vì quy mô và sự chào đón nồng nhiệt của các anh chị trong group member và cả ở ban. Nói chung là hồi đấy cũng chả biết ai với ai, nhưng thấy ai cũng nhiệt tình, được đón sinh nhật lần thứ 10 online cùng câu lạc bộ, cảm thấy rất phấn khích. Cấp 3 tôi cũng làm chủ nhiệm của một câu lạc bộ (khá nhỏ) và tham gia 1-2 câu lạc bộ nữa, nhưng thấy lên câu lạc bộ này quy mô và mọi thứ nó khác hẳn ấy, vui hơn hẳn.
 
@@ -38,7 +41,10 @@ Chơi nhiều, nhưng xích mích cũng không ít. Hồi đó ngựa non háu �
 
 ## Bắt đầu lên “sếp”
 
-![Bắt đầu làm sếp](https://raw.githubusercontent.com/nyvietnam/mjml/main/bcn-tvht.png)
+<div style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/bcn-tvht.png" alt="Gặp gỡ" style="width: 100%;">
+</div>
+
 
 Cái sếp đầu tiên mà tôi lên thì chắc là UET News, nhưng vì nó nhẹ nhàng quá, đơn giản quá, cũng chưa liên quan gì lắm đến việc lead thật nên bỏ qua đi, còn cái lớn đầu tiên mà rất áp lực thì có lẽ là nhận chức lead giai đoạn 2 của Tư vấn tuyển sinh từ anh Tấn Minh. Nhớ là hồi đấy anh Tấn Minh gọi vào meet, có cả chị Bình Đặng nữa, nói chuyện sương sương và chốt lại bằng hai câu *“Em có muốn lên lead TVTS giai đoạn 2 không?”* và *“Nếu lên lead thì hướng đi tiếp theo của em là gì?”*. OMG hồi đó quá là bất ngờ luôn, tại đợt đấy nghĩ mình cũng chẳng làm gì nhiều, cũng chưa có kinh nghiệm gì về những chuyên mục còn lại nên bất ngờ khi anh hỏi như vậy, chắc cũng là vì chuyên mục của tôi khá là yên ổn so với các chuyên mục khác đầy biến động khi đó. Nói thật, so Nguyễn Huy Thái với Phùng Khôi Nguyên ở thời điểm nhậm chức lead TVTS của mỗi người thì tôi chỉ bằng 1 góc của Nguyên, tất nhiên tiềm năng thì tôi đánh giá là ngang nhau, tính cách cũng rất giống nhau :))) nhưng được cái là Nguyên được nuôi dưỡng ở trong môi trường TVTS giai đoạn 1 ở năm sau khá là ổn định, được tham gia họp chung nhiều và nắm được bức tranh toàn cảnh, còn như tôi thì hết giai đoạn 1 tôi cũng không biết nhiều lắm về bức tranh tổng quan tư vấn tuyển sinh nên rất khó khăn, nhân sự hồi đó thì bập bẹ, người làm người không, đến các lead còn cãi nhau, bỏ bê luôn thì nói thật là quá bất ổn. May sao là tôi vẫn có Hà Nguyễn - lên làm lead truyền thông cùng và chạy nốt cùng trong giai đoạn cuối, hồi đó 2 đứa engage với nhau thực sự luôn thành ra cũng thân nhau từ đó. Nói chung, theo tôi đánh giá thì từ lúc cầm giai đoạn 2 đến cuối thì tôi với Hà Nguyễn cũng không có nhiều dấu ấn lắm, cũng chỉ cố gắng giải quyết mối lo nhân sự đang quá nghiêm trọng và hoàn thiện nốt những gì có thể và kết thúc chiến dịch thôi.
 
@@ -54,7 +60,9 @@ Nói chung là hồi mới lên chức NHT còn trẻ, còn non, còn nóng nả
 
 ## Trở thành “anh của các ems”
 
-![Trở thành anh của các ems](https://raw.githubusercontent.com/nyvietnam/mjml/main/lauban.png)
+<div style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/lauban.png" alt="Gặp gỡ" style="width: 100%;">
+</div>
 
 Thời gian thấm thoát thoi đưa, cũng đã đến lúc tuyển quân S11 bắt đầu. Tôi nghĩ là ban chúng tôi đã có một mùa tuyển quân khá chất lượng. Sau một quãng thời gian từ hè đến tận vào năm, nỗ lực hết mình với Tư vấn tuyển sinh, Supporters K67, Big Game, Club Day với những hình ảnh *“Big Brothers”* lớn như anh Hưng, chị Quỳnh, anh Quân, chị Uyên, anh Tâm… thì chúng tôi có một số lượng đơn tuyển vào rất đông (đông nhất trong 3 ban và chắc cũng đông nhất trong các năm ở tư vấn hỗ trợ) thì chúng tôi có thể lựa chọn ra những hạt giống tốt nhất. Ban cũng có quy trình tuyển thành viên nghiêm ngặt từ vòng phỏng vấn, 1 tuần teamwork và đến buổi thuyết trình nữa với lực lượng supporter hùng hậu và vô cùng kinh nghiệm. Nhìn thành quả hôm thuyết trình các team đều có output với chất lượng rất tốt, mới chỉ là danh sách rút gọn vòng 3 thôi mà có thể về tầm nhìn và kỹ năng ngang với thành viên của của một số câu lạc bộ khác rồi thì tôi cảm thấy rất vui và tự hào vì công sức mình bỏ ra từ hè đến giờ không bị vô dụng. Tự hào hơn nữa là chính tôi đã mang Phùng Khôi Nguyên trở lại tư vấn hỗ trợ, mặc dù trưởng ban truyền thông Hà Nguỹn cũng bằng mặt nhưng không bằng lòng với điều này :v, và sau này PKN đi đúng hành trình của tôi luôn :))) Vào ban TVHT, lead News SG, lead News Tuyển sinh, làm Lead tổng giai đoạn 2 của TVTS, lên trưởng ban Tư vấn hỗ trợ 😮. OMG, giờ mới thấy tính cách quá giống nhau, con đường cũng quá giống nhau luôn. Mong sao năm sau em lên tiếp chứ đừng dừng cuộc chơi sớm như anh Thái, buồn lắm =))))
 
@@ -70,7 +78,10 @@ Một điều làm tôi tự hào nhất trong giai đoạn này là đã setup 
 
 ## Già rồi, nghỉ ngơi thôi
 
-![Trở thành anh của các ems](https://raw.githubusercontent.com/nyvietnam/mjml/main/nghihuu.jpg)
+<div style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/nghihuu.jpg" alt="Gặp gỡ" style="width: 100%;">
+</div>
+
 
 Nhưng cuộc vui nào rồi cũng đến lúc tàn, mùa hiệp thương ban chủ nhiệm 2023-2024, tôi đã đưa ra một quyết định cuối cùng vô cùng khó khăn là không tiếp tục tham gia ban chủ nhiệm năm sau ở một vị trí cao hơn. 
 
