@@ -3,7 +3,7 @@ layout: post
 title: "Kết thúc một hành trình cùng SGUET"
 subtitle: "Nhìn lại hai năm cùng với câu lạc bộ gắn liền với thời đại học: tôi đã trưởng thành hơn rất nhiều."
 date: 2023-08-18 23:45:13 -0400
-background: 'https://raw.githubusercontent.com/nyvietnam/mjml/main/xinhxinh1.jpg'
+background: '/img/posts/post-sg.jpg'
 ---
 
 Xin chào mọi người, đây là bài đầu tiên mình viết kể từ lúc “chuyển nhà” cái blog từ cái cũ sang cái mới, cũng đúng vào dịp ra mắt ban chủ nhiệm mới của câu lạc bộ và hội người “mới” già như chúng tôi mới về hưu nên muốn tâm sự một xíu về hành trình 2 năm đã gắn bó với câu lạc bộ này. Bài viết khá là dài, vì 2 năm ở SG của tôi có nhiều kỉ niệm và nhiều thứ để kể, có thể hơi lê thê một tí nhưng kệ đi =)))
