@@ -10,8 +10,9 @@ Xin chào mọi người, đây là bài đầu tiên mình viết kể từ lú
 
 ## Gặp gỡ
 
-![Gặp gỡ](https://raw.githubusercontent.com/nyvietnam/mjml/main/biggame-2021.png)
-
+<div style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/biggame-2021.png" alt="Gặp gỡ" style="width: 100%;">
+</div>
 
 Kể ra thì việc biết đến câu lạc bộ của tôi thì cũng khá là tình cờ, cũng là nhờ một người khác chứ cũng không phải tự mình tìm. Tôi thì là thằng hướng nội, nhưng nhìn bề ngoài thì khá hướng ngoại. Lên đại học thì cũng khá thích tìm kiếm, mở rộng mối quan hệ và ngay lập tức “bắt sóng” được trong K66CN1, làm quen, chơi game, biết được khá nhiều người trong ngành và cả nhiều nhiều anh chị khóa trên. Ở bên câu lạc bộ bóng đá thì tôi có quen anh Hoàng (khóa trên ở trường C3), sau đó là anh Chung, chị Linh, đã bị dí vào ngồi trong Ban Truyền thông của bên đó des ấn phẩm cho UETFC ở Club Day rồi, vì lên đại học với đam mê duy nhất là bóng bánh mà, nên hồi đó mê câu lạc bộ đá bóng lắm luôn, đến ngày club day thì vào chơi với nhiều câu lạc bộ quá, nhưng cũng chả có ấn tượng gì lắm với SG, chỉ có ấn tượng với AE - hàng không vũ trụ và EC - tiếng Anh vì mấy anh chị bên đấy vào nói chuyện cũng hay, cũng hài (đợt đấy còn định apply AE luôn ấy).
 
