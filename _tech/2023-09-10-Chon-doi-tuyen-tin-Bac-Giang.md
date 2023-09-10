@@ -2,7 +2,7 @@
 layout: post
 title: "Giải đề thi chọn Đội tuyển quốc gia Tin 23-24 tỉnh Bắc Giang"
 subtitle: ""
-date: 2023-09-10 23:00:00 -0400
+date: 2023-09-10 20:00:00 -0400
 background: '/img/bg-04.png'
 ---
 
