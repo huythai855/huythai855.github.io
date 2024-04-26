@@ -2,7 +2,7 @@
 layout: post
 title: "How to give a good talk?"
 subtitle: "Tốc ký bài giảng của thầy Lê Sỹ Vinh trong một giờ chuẩn bị cho buổi thuyết trình môn Tin Sinh học ngày 26 tháng 4 năm 2024."
-date: 2024-04-26 20:00:00 -0400
+date: 2024-04-26 15:00:00 -0400
 background: '/img/bg-index.jpg'
 ---
 
