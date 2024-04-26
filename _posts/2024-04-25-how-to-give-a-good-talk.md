@@ -47,7 +47,7 @@ Và trong bài talk cũng vậy: Tại sao bạn phải give bài talk này? & T
 
 Luôn phải nhớ rằng: Người nghe phải là trung tâm của buổi talk. Bạn không đến đây để nói điều bạn muốn nói, bạn phải nói cái người nghe muốn nghe. Điều này cũng giống như trong kinh doanh, nhiều người quá yêu sản phẩm của mình, hùng hục R&D, hừng hực khí thế, nghĩ là ngày mai release sản phẩm 1 cái thôi là sẽ thành triệu phú, nhưng quên mất rằng đấy là cái mình muốn bán, chứ không phải là cái thị trường cần.
 
-Bạn luôn luôn phải chuẩn bị và nghiên cứu kỹ xem đối tượng lắng nghe là ai. Cùng 1 bài talk về một hệ thống website bán hàng chẳng hạn, bạn nói cho sinh viên trường UET sẽ khác, bạn có thể nói về công nghệ, về tech stack, về những thứ nặng về kỹ thuật,… oke, nghe có vẻ ổn. Nhưng đừng bê nguyên cái bài đó đi nói cho các sinh viên kinh tế như bên FTU (they wont give a f*ck about you’re saying:D) họ chẳng hiểu thằng điên trước mặt mình đang nói cái gì cả, thay vì thế tại sao bạn không nói nhiều hơn về các ứng dụng của hệ thống của bạn cho việc kinh doanh, thương mại điện tử,.. v.v
+Bạn luôn luôn phải chuẩn bị và nghiên cứu kỹ xem đối tượng lắng nghe là ai. Cùng 1 bài talk về một hệ thống website bán hàng chẳng hạn, bạn nói cho sinh viên trường UET sẽ khác, bạn có thể nói về công nghệ, về tech stack, về những thứ nặng về kỹ thuật,… oke, nghe có vẻ ổn. Nhưng đừng bê nguyên cái bài đó đi nói cho các sinh viên kinh tế như bên FTU (they wont give a f*ck about what you’re saying:D) họ chẳng hiểu thằng điên trước mặt mình đang nói cái gì cả, thay vì thế tại sao bạn không nói nhiều hơn về các ứng dụng của hệ thống của bạn cho việc kinh doanh, thương mại điện tử,.. v.v
 
 <br>
 
