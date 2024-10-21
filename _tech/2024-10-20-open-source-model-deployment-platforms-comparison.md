@@ -3,7 +3,7 @@ layout: post
 title: "So sánh các nền tảng/công cụ triển khai mô hình học máy mã nguồn mở phổ biến"
 subtitle: "Open-source model serving tools comparison: KServe, Seldon Core, BentoML, Triton Inference Server, Ray Serve"
 date: 2024-10-20 00:00:00 -0400
-background: '/img/posts/06.ipg'
+background: '/img/bg-01.png'
 ---
 
 ## **Tổng quan**
@@ -24,7 +24,7 @@ Nghiên cứu tập trung so sánh các nền tảng triển khai mô hình họ
 KServe (tên gọi cũ là KFServing) là một công cụ mã nguồn mở dựa trên Kubernetes, cung cấp khả năng định nghĩa các tài nguyên Kubernetes tùy chỉnh (Kubernetes Custom Resource Definition) để triển khai các mô hình học máy <a href="https://www.hopsworks.ai/dictionary/kserve">[1]</a>.  Công cụ này ra đời với mục đích trừu tượng hóa các công việc quản lý deployments phức tạp và người dùng chỉ cần quan tâm đến các phần liên quan đến nghiệp vụ học máy. KServe hỗ trợ rất nhiều tính năng nâng cao như tự động mở rộng, scale-to-zero, triển khai từng phần và hỗ trợ rất nhiều framework học máy nổi tiếng. Công cụ này cũng được sử dụng bởi rất nhiều doanh nghiệp lớn như AWS, Bloomberg, Canonical, Cisco, Hewlett Packard Enterprise, IBM, Red Hat, Zillow hay NVIDIA <a href="https://blogs.nvidia.com/blog/kserve-nim-inference/">[2]</a>. 
 
 <div style="width: 100%;">
-  <img src="../img/tech/2024-10-20/anh1.png" style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/img/tech/2024-10-20/anh1.png" style="width: 100%;">
   <figcaption><i>Ảnh 1: Luồng triển khai mô hình cơ bản với KServe</i></figcaption>
 </div>
 <br />
@@ -34,7 +34,7 @@ KServe (tên gọi cũ là KFServing) là một công cụ mã nguồn mở dự
 Seldon Core là một công cụ mã nguồn mở được phát triển bởi Seldon Technologies Ltd. Công cụ này cũng sử dụng hướng tiếp cận tương tự với KServe trong việc trừu tượng hóa các công việc triển khai deployment và với khả năng định nghĩa các tài nguyên Kubernetes tùy chỉnh (Kubernetes Custom Resource Definition). Seldon Core chuyển đổi các mô hình học máy và các phần code wrapper thành các microservice hoạt động dựa trên giao thức HTTP/gRPC sẵn sàng triển khai lên môi trường sản xuất <a href="https://docs.seldon.io/projects/seldon-core/en/latest/workflow/github-readme.html">[3]</a>. Công cụ này cũng hỗ trợ các chiến lược triển khai như Canary deployment hay A/B testing và hỗ trợ nhiều framework học máy nổi tiếng.
 
 <div style="width: 100%;">
-  <img src="../img/tech/2024-10-20/anh2.png" style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/img/tech/2024-10-20/anh2.png" style="width: 100%;">
   <figcaption><i>Ảnh 2: Luồng triển khai mô hình dạng đơn giản và phức tạp sử dụng Seldon Core</i></figcaption>
 </div>
 <br />
@@ -44,7 +44,7 @@ Seldon Core là một công cụ mã nguồn mở được phát triển bởi S
 Không giống như KServe hoặc Seldon Core, BentoML hoạt động như một framework python để “gói” các mô hình học máy thành các services có thể triển khai được <a href="https://bentoml.com/blog/from-models-to-market-the-missing-link">[4]</a>. Bento cung cấp một giao thức hướng đối tượng đơn giản để đóng gói các mô hình học máy và tạo các HTTP(s) service để triển khai chúng. Vì tính đơn giản và linh hoạt này, BentoML cũng có thẻ tích hợp sâu với nhiều framework học máy, giúp lược bỏ và ẩn đi các công việc phức tạp khi triển khai. Các mô hình được đóng gói bởi BentoML có thể được triển khai trên rất nhiều môi trường (runtimes) như các cụm Kubernetes, tích hợp cùng các nền tảng triển khai như Triton hay chạy dưới dạng các ứng dụng serverless trên các nền tảng đám mây lớn.
 
 <div style="width: 100%;">
-  <img src="../img/tech/2024-10-20/anh3.png" style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/img/tech/2024-10-20/anh3.png" style="width: 100%;">
   <figcaption><i>Ảnh 3: Cách BentoML đóng gói và triển khai các mô hình học máy</i></figcaption>
 </div>
 <br />
@@ -55,7 +55,7 @@ Không giống như KServe hoặc Seldon Core, BentoML hoạt động như một
 Triton Inference Server (trước đây gọi là TensorRT Inference Server) là một framework mã nguồn mở của NVIDIA, giúp đơn giản hóa và tối ưu hóa việc triển khai mô hình học máy trong các ứng dụng ở môi trường sản xuất <a href="https://aws.amazon.com/vi/blogs/machine-learning/deploy-fast-and-scalable-ai-with-nvidia-triton-inference-server-in-amazon-sagemaker/">[5]</a>. Triton hỗ trợ nhiều framework học sâu và máy học phổ biến như TensorFlow, PyTorch, TensorRT, ONNX Runtime, và nhiều framework khác, giúp các tổ chức triển khai và quản lý mô hình từ nhiều nguồn khác nhau trên cùng một hệ thống. Triton Inference Server nổi tiếng với khả năng tối ưu hóa việc sử dụng các tài nguyên tính toán như GPU, CPU giúp tăng hiệu suất và giảm chi phí rất nhiều khi triển khai.
 
 <div style="width: 100%;">
-  <img src="../img/tech/2024-10-20/anh4.png" style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/img/tech/2024-10-20/anh4.png" style="width: 100%;">
   <figcaption><i>Ảnh 4: Kiến trúc của NVIDIA Triton Inference Server</i></figcaption>
 </div>
 <br />
@@ -65,7 +65,7 @@ Triton Inference Server (trước đây gọi là TensorRT Inference Server) là
 Ray Serve là một framework mạnh mẽ để triển khai và phục vụ các mô hình học máy trong các môi trường phân tán. Ray Serve hoạt động không phụ thuộc vào các framework học máy (framework-agnostic) giúp người sử dụng triển khai các mô hình học máy với framework và công nghệ tùy ý, không bị giới hạn. Ray Serve được xây dựng trên Ray - hệ thống phân tán mã nguồn mở dành cho lập trình song song và phân tán, Ray Serve tập trung vào việc đơn giản hóa việc triển khai, quản lý và mở rộng các mô hình học máy trong môi trường sản xuất <a href="https://docs.ray.io/en/latest/serve/index.html">[6]</a>.
 
 <div style="width: 100%;">
-  <img src="../img/tech/2024-10-20/anh5.png" style="width: 100%;">
+  <img src="https://raw.githubusercontent.com/nyvietnam/mjml/main/img/tech/2024-10-20/anh5.png" style="width: 100%;">
   <figcaption><i>Ảnh 5: Kiến trúc ở dạng high-level của Ray Serve <a href="https://docs.ray.io/en/latest/serve/architecture.html">[7]</a></i></figcaption>
 </div>
 
