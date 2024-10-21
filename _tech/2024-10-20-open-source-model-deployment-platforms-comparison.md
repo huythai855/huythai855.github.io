@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "So sánh các nền tảng/công cụ triển khai mô hình học máy mã nguồn mở phổ biến"
+title: "So sánh các công cụ triển khai mô hình học máy mã nguồn mở phổ biến"
 subtitle: "Open-source model serving tools comparison: KServe, Seldon Core, BentoML, Triton Inference Server, Ray Serve"
 date: 2024-10-20 00:00:00 -0400
 background: '/img/bg-01.png'
 ---
 
-## **Tổng quan**
+# **Tổng quan**
 
 Với sự phát triển mạnh mẽ của trí tuệ nhân tạo, trong thời gian gần đây ngày càng nhiều doanh nghiệp sử dụng mô hình học máy để cải thiện các quy trình kinh doanh, ra quyết định hay đem đến những tính năng hỗ trợ trải nghiệm của người. Chúng ta có thể thấy ứng dụng của trí tuệ nhân tạo gần như trong mọi lĩnh vực: từ thương mại điện tử, y tế, giáo dục, tài chính hay công nghệ. Các doanh nghiệp đang cạnh tranh trong việc áp dụng các công nghệ mới này để tạo ra những ưu thế vượt trội trong lĩnh vực của mình.
 
@@ -17,7 +17,7 @@ Nghiên cứu tập trung so sánh các nền tảng triển khai mô hình họ
 
 <br/>
 
-## **Giới thiệu về các công cụ**
+# **Giới thiệu về các công cụ**
 
 ### KServe
 
@@ -71,7 +71,7 @@ Ray Serve là một framework mạnh mẽ để triển khai và phục vụ cá
 
 <br />
 
-## **So sánh các tính năng**
+# **So sánh các tính năng**
 
 ### Lựa chọn các tính năng để so sánh
 
@@ -156,7 +156,7 @@ Cuối cùng, một tính năng vô cùng quan trọng của các nền tảng t
 
 <br/>
 
-## **Bảng so sánh tổng quát**
+# **Bảng so sánh tổng quát**
 
 | Tính năng                                           | KServe                                            | Seldon Core                                       | BentoML                             | Triton Inference Server                        | Ray Serve                                     |
 |-----------------------------------------------------|---------------------------------------------------|--------------------------------------------------|------------------------------------|------------------------------------------------|------------------------------------------------|
@@ -172,7 +172,7 @@ Cuối cùng, một tính năng vô cùng quan trọng của các nền tảng t
 
 <br />
 
-## **Tổng kết**
+# **Tổng kết**
 
 Nghiên cứu đã so sánh 5 nền tảng triển khai mô hình học máy mã nguồn mở phổ biến dựa trên các tiêu chí quan trọng trong việc triển khai các mô hình học máy trong môi trường sản xuất. Từ đó, doanh nghiệp có thể dễ dàng hơn trong việc đánh giá được các ưu, nhược điểm của từng nền tảng để có thể lựa chọn một giải pháp tối ưu để có thể tự quản lý và vận hành mô hình học máy trên chính hạ tầng của mình mà không phụ thuộc vào các dịch vụ đám mây công cộng - vốn tiềm ẩn nhiều hạn chế như phụ thuộc vào nền tảng hay rủi ro về bảo mật dữ liệu.
 
@@ -180,7 +180,7 @@ Dựa trên các kết quả đã nghiên cứu về 5 nền tảng triển khai
 
 <br />
 
-## **Tài liệu tham khảo**
+# **Tài liệu tham khảo**
 
 [1] Hopsworks, What is KServe?, https://www.hopsworks.ai/dictionary/kserve
 
