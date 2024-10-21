@@ -87,6 +87,8 @@ Ray Serve là một framework mạnh mẽ để triển khai và phục vụ cá
 
 Khác với việc sử dụng các giải pháp end-to-end có sẵn của các nền tảng cung cấp dịch vụ đám mây lớn, việc triển khai trên hạ tầng doanh nghiệp (on-premises) yêu cầu người triển khai cần quản lý và tích hợp sâu vào quá trình. Do đó, các tính năng được lựa chọn này tập trung vào các khía cạnh quan trọng trong việc lựa chọn một giải pháp triển khai các mô hình học máy trên hạ tầng (on-premises).
 
+<br />
+
 ### Khả năng triển khai mô hình sử dụng các framework phổ biến
 Đầu tiên, ta so sánh khả năng của các nền tảng trong việc triển khai các mô hình sử dụng các framework học máy được sử dụng phổ biến như Scikit-Learn, Pytorch, Tensorflow,...
 - **KServe**: dựng sẵn các docker image cho từng framework để chạy ở inference server, cho nên đều có thể sử dụng và triển khai các mô hình ở các framework cơ bản.
@@ -95,6 +97,7 @@ Khác với việc sử dụng các giải pháp end-to-end có sẵn của các
 - **Triton Inference Server**: cũng có thể dễ dàng triển khai các mô hình sử dụng các framework TensorFlow, PyTorch, ONNX, XGBoost, Scikit-Learn, nhưng được xây dựng để tối ưu tốt hơn cho TensorFlow và PyTorch.
 - **Ray Serve**: hoạt động như một hệ thống phân tán tùy chỉnh nên không phụ thuộc vào framework học máy nào (framework-agnostic).
 
+<br />
 
 ### Khả năng triển khai mô hình sử dụng các framework tùy chỉnh
 Ngoài việc triển khai được các mô hình theo các framework phổ biến, các nền tảng cũng cần có khả năng linh hoạt, triển khai được các mô hình tùy chỉnh phục vụ nhu cầu của người dùng.
@@ -104,6 +107,8 @@ Ngoài việc triển khai được các mô hình theo các framework phổ bi�
 - **Triton Inference Server**: được xây dựng để tối ưu cho các mô hình sử dụng TensorFlow, PyTorch và ONNX nên có thể gặp khó khăn khi triển khai các mô hình từ các framework tùy chỉnh của người dùng.
 - **Ray Serve**: hoạt động như một hệ thống phân tán tùy chỉnh nên không phụ thuộc vào framework học máy nào (framework-agnostic). Người dùng có thể sử dụng Ray Serve cùng với các framework học máy tùy chỉnh và các thư viện python một cách dễ dàng mà không gặp trở ngại gì.
 
+<br />
+
 ### Khả năng xử lý ở giai đoạn trước và sau khi triển khai
 Trên thực tế, các mô hình học máy thường cần rất nhiều các công đoạn tiền xử lý dữ liệu đầu vào để trích chọn các tính trạng và chuẩn hóa các giá trị . Ngoài ra, sau khi triển khai, dữ liệu có thể cũng cần vượt qua các công đoạn xác thực hoặc chuyển đổi trước khi trả về cho người dùng. Các nền tảng triển khai mô hình cần có khả năng tích hợp với các quy trình này.
 - **KServe**: hỗ trợ cả pipeline inference, cho phép tùy biến các bước xử lý trước và sau (pre and post processing) thông qua inference server. Vì KServe cho phép người dùng triển khai dưới dạng Docker container nên bước này có thể thực hiện dễ dàng, tương tự với việc triển khai các custom model.
@@ -111,6 +116,8 @@ Trên thực tế, các mô hình học máy thường cần rất nhiều các 
 - **BentoML**: được triển khai dưới dạng code python nên sẽ cực kỳ dễ dàng nhất trong việc tích hợp các module pre/post processing.
 - **Triton Inference Server**: Cũng hỗ trợ các cơ chế pre/post processing nhưng cần cấu hình thêm nhiều, hoặc tích hợp thêm các hệ thống khác như NVIDIA DALI để chuyên biệt hóa cho việc xử lý <a href="https://developer.nvidia.com/blog/accelerating-inference-with-triton-inference-server-and-dali/">[9]</a>.
 - **Ray Serve**: cũng hỗ trợ pre/post-processing thông qua code Python và có thể chạy song song trên các workers phân tán, linh hoạt nhưng nếu yêu cầu cấu hình tùy chỉnh sâu có thể phải kết hợp với các phần khác của Ray như Ray Data <a href="https://docs.ray.io/en/latest/data/data.html">[10]</a>.
+
+<br />
 
 ### Tính thuận tiện trong tích hợp, không ảnh hưởng đến quá trình phát triển của cả hệ thống
 Về việc tích hợp, một số nền tảng yêu cầu thực hiện các cấu hình riêng biệt trong quy trình phát triển như tích hợp API, thay đổi trong quá trình CI/CD hoặc yêu cầu code huấn luyện đặc biệt. Đây có thể là các trở ngại trong việc sử dụng các nền tảng triển khai học máy này.
@@ -120,6 +127,8 @@ Về việc tích hợp, một số nền tảng yêu cầu thực hiện các c
 - **Triton Inference Server**: Cũng có thể tích hợp một cách mượt mà vào devops pipeline, nhưng như đã phân tích Triton yêu cầu các mô hình phải được đóng gói ở một số framework nhất định (như TensorFlow, PyTorch, ONNX) để có thể tương thích với server. Điều này có thể đòi hỏi cần phải có thêm bước chuyển đổi giữa mô hình ban đầu chuyển sang dạng mô hình ở các framework tương thích.
 - **Ray Serve**: Cung cấp sẵn phần Ray Serve API để tích hợp, nhưng để tận dụng được tính năng phân tán hiệu quả thì cần custom thêm các phần Kubernetes manifest hoặc Helm Chart để triển khai một cách thiện tiện và xử lý song song.
 
+<br />
+
 ### Khả năng vận hành thuận tiện
 Trong môi trường sản xuất, khi triển khai các mô hình lên, các doanh nghiệp cũng rất cần quan tâm đến việc theo dõi vận hành của mô hình trong nhiều điều kiện khác nhau. Các nền tảng triển khai cần phải được xây dựng sẵn các tính năng hỗ trợ việc theo dõi, logging và truy vết khi xảy ra lỗi.
 - **KServe**: được xây dựng dựa trên Kubernetes và sử dụng các công cụ Open Source hiệu quả bên trong như Knative và Istio, cung cấp khả năng DevOps mạnh mẽ nhờ tích hợp với các công cụ CI/CD và observability.  Tận dụng được hệ sinh thái Kubernetes với việc triển khai qua kubectl, helmm và Monitor qua Prometheus. Các phần logging hay các chiến lược triển khai cũng có thể triển khai một cách dễ dàng.
@@ -127,6 +136,8 @@ Trong môi trường sản xuất, khi triển khai các mô hình lên, các do
 - **BentoML**: cũng hỗ trợ phần vận hành và triển khai DevOps, cũng có thể tích hợp với các tracing tool như Jaeger hoặc monitoring tool như Prometheus. Nhưng quá thủ công, không tận dụng được các chiến lược triển khai hoặc các tính năng scale in/out có sẵn trên kubernetes nên phải tự cấu hình thêm nhiều nếu hệ thống lớn và có các yêu cầu như HA
 - **Triton Inference Server**: Được thiết kế để hỗ trợ quy trình DevOps một cách linh hoạt, có thể tích hợp tốt với Kubernetes, hỗ trợ các công cụ monitoring như Prometheus và các logging tool. Có các tính năng mở rộng scale được tùy chỉnh nâng cao. Nhưng công cụ này chưa hỗ trợ tốt cho các phần chiến lược triển khai và người dùng có thể phải tùy chỉnh thủ công.
 - **Ray Serve**: là framework quản lý phân tán nên khi triển khai và vận hành cũng phải thực hiện trên môi trường phân tán. Các tính năng về theo dõi và logging tool có thể được tích hợp, chiến lược triển khai có thể phải tùy chỉnh thủ công. Điểm mạnh của Ray Serve là tính năng horizontally scaling trong các cluster, đặc biệt ổn khi các mô hình có các yêu cầu đặc biệt có thể tính toán phân tán.
+
+<br />
 
 ### Khả năng tự động mở rộng linh hoạt
 Khả năng tự động mở rộng (scaling) là một khả năng rất quan trọng của mọi hệ thống lớn để phục vụ nhu cầu của người dùng, không chỉ riêng của các nền tảng triển khai học máy. Các nền tảng cần có khả năng mở rộng khi lượng traffic đột ngột tăng và thu hẹp phạm vi khi ít người sử dụng để tiết kiệm tài nguyên.
@@ -136,6 +147,8 @@ Khả năng tự động mở rộng (scaling) là một khả năng rất quan 
 - **Triton Inference Server**: Không có autoscaling tích hợp từ đầu nhưng thường được triển khai trên kubernetes nên người dùng có thể sử dụng các tính năng scaling có sẵn của Kubernetes như HPA. Một điểm mạnh mẽ của Triton đó là hỗ trợ dynamic batching và song song hóa mô hình, giúp tối ưu lượng sử dụng tài nguyên và tăng thông lượng, từ đó có thể giảm nhu cầu scaling tài nguyên trong một số trường hợp <a href="https://developer.nvidia.com/blog/fast-and-scalable-ai-model-deployment-with-nvidia-triton-inference-server/">[12]</a>.
 - **Ray Serve**: được xây dựng trên nền là Ray - một framework được thiết kế cho việc tính toán phân tán và scaling trên nhiều nodes và Ray Serve Autoscaler được xây dựng trên Ray AutoScaler nên tận dụng được hết các lợi thế của nền tảng này <a href="https://docs.ray.io/en/latest/serve/autoscaling-guide.html#ray-serve-autoscaler-vs-ray-autoscaler">[13]</a>. Ray Serve hỗ trợ khả năng scale up và scale down dựa trên lượng request xử lý, sử dụng các cluster của Ray. Cơ chế autoscaler này có thể điều chỉnh lượng node worker một cách linh hoạt, co giãn để đáp ứng được lượng traffic đổ vào, trong khi vẫn đảm bảo tối ưu hóa mức sử dụng tài nguyên. Ray Serve cũng hỗ trợ hai cơ chế batching và queueing các request để xử lý các điểm đột biến hiệu quả hơn, đồng thời giảm quy mô một cách mượt mà trong những thời gian có lượng traffic thấp.v
 
+<br />
+
 ### Các giao thức kết nối hỗ trợ
 Thông thường, các mô hình thường được triển khai thành các dịch vụ HTTP(s) và tương tác qua dữ liệu kiểu JSON. Nhưng với một số trường hợp yêu cầu các nền tảng phải hỗ trợ thêm các giao thức khác như gRPC để cho tốc độ cao hơn và đạt được yêu cầu về hiệu năng cho hệ thống.
 - **KServe**: không giới hạn, nhưng Mặc định sử dụng giao thức HTTP. Nếu người dùng muốn dùng các phương thức khác thì phải cấu hình bộ chuyển đổi / bộ xử lý.
@@ -144,7 +157,7 @@ Thông thường, các mô hình thường được triển khai thành các d�
 - **Triton Inference Server**: Hỗ trợ các cơ chế build-in cả hai phương thức HTTP và gRPC trong việc inference. Nền tảng được thiết kế cho việc truy vấn hiệu năng cao và được sử dụng cho các hệ thống quy mô lớn.
 - **Ray Serve**: Hỗ trợ cả hai giao thức HTTP và gRPC. Người dùng có thể cấu hình mở rộng thêm cho Ray Serve để hỗ trợ các protocol tùy chỉnh khác.
 
-
+<br />
 
 ### Khả năng quản lý hạ tầng
 Cuối cùng, một tính năng vô cùng quan trọng của các nền tảng triển khai học máy đó là khả năng quản lý hạ tầng - thứ vô cùng quan trọng trong việc vận hành các hệ thống quy mô lớn, cần hiệu năng cao.
