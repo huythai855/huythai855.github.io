@@ -2,7 +2,7 @@
 layout: post
 title: "Những app mình dùng cho Macbook"
 subtitle: "Cập nhật đến T8/2025"
-date: 2025-01-08 00:00:00 -0400
+date: 2025-08-01 00:00:00 -0400
 background: '/img/bg-index.png'
 ---
 
